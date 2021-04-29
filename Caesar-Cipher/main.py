@@ -38,6 +38,6 @@ while stopProgram:
   else:
     decrypt(user_input=text, shift_amount=shift)
 
-  temp = input("Did you want to exit the program? Enter yes or no.\n")
+  temp = input("Do you want to exit the program? Enter yes or no.\n")
   if temp.lower() == "yes":
     stopProgram = False
